@@ -1,0 +1,57 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Protobuf generated files
+*.pb.h
+*.pb.cc
+*_pb2.py
+*_pb2.pyc
+*_pb3.py
+*_pb3.pyc
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# build folder
+build/*
+
+# Executables
+*.exe
+*.out
+*.app
+fast_svmlight_loader
+
+# Project files
+*.pyproj
+.vscode/
+
+# Mac system file
+.DS_Store
+
+# Python wheel binaries
+python/dist/
+
+# symbol directories
+*.dSYM/
