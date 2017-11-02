@@ -17,4 +17,6 @@ from fast_svmlight_loader import load_svmlight
 data = load_svmlight('big_libsvm_file.libsvm', verbose=True)
 # set verbose=False to remove "progress bar"
 X, y = data['data'], data['labels']
+# X is the data matrix (scipy.sparse.csr_matrix)
+# y is the label vector (numpy.ndarray)
 ```
