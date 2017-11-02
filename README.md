@@ -15,6 +15,6 @@ Usage
 ```python
 from fast_svmlight_loader import load_svmlight
 data = load_svmlight('big_libsvm_file.libsvm', verbose=True)
-# remove verbose=False to remove "progress bar"
+# set verbose=False to remove "progress bar"
 X, y = data['data'], data['labels']
 ```
